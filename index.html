@@ -9,12 +9,30 @@
 </head>
 <body>
     <div id="stars">
-        <span></span>
-        <span></span>
-        <span></span>
-        <span></span>
-        <span></span>
-        <span></span>
+        <span>
+           <span></span> 
+           <span></span> 
+        </span>
+        <span>
+           <span></span> 
+           <span></span> 
+        </span>
+        <span>
+           <span></span> 
+           <span></span> 
+        </span>
+        <span>
+           <span></span> 
+           <span></span> 
+        </span>
+        <span>
+           <span></span> 
+           <span></span> 
+        </span>
+        <span>
+           <span></span> 
+           <span></span> 
+        </span>
     </div>
 
    <div class="bg"></div>
@@ -39,7 +57,7 @@
         <ul id="ul1">
 
             <li  class="li">
-                <img width="155px" src="./IMGS/reactJS.png" alt="" srcset="">
+                <img width="95%" src="./IMGS/reactJS.png" alt="" srcset="">
                 <div>
                     <strong>
                         REACT JS
@@ -56,7 +74,7 @@
 
                 <li class="li">
                     
-                    <img width="155px" src="./IMGS/build-accessible-glossary-vanilla-javascript.avif" alt="" srcset="">
+                    <img width="95%" src="./IMGS/build-accessible-glossary-vanilla-javascript.avif" alt="" srcset="">
                     <div>
                         <strong>
                             VANNILLA JS
@@ -70,7 +88,7 @@
                     </li>
 
                     <li class="li">
-                        <img width="140px" src="./IMGS/mern-stack.jpg" alt="" srcset="">
+                        <img width="95%" src="./IMGS/mern-stack.jpg" alt="" srcset="">
                 <div>
                     <strong>
                         MERN PROJECT
@@ -88,8 +106,14 @@
     </div>
    </div>
 </body>
-<script src="index.js">
-
+<script >
+const doc=document.querySelectorAll('.li')
+doc.forEach((x,i)=>{
+    setTimeout(() => {
+        console.log(x);
+        x.style.left='10%'
+    }, (i+1)*200);
+})
 
 </script>
 </html>
