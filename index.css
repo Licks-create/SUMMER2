@@ -12,7 +12,7 @@ body
     width: 100%;
     background: url('../img/fallingw.jpg') no-repeat center/cover;
     background: black;
-    background: url('https://img.freepik.com/free-vector/simple-starry-night-background-gradient_23-2148273606.jpg?w=1060&t=st=1686569924~exp=1686570524~hmac=c51baf4cde7ff7b908930b5acdf1536a1ba3b5b7de07c277154590fd13ba6877') no-repeat center/cover;
+    background: url('./IMGS/simple-starry-night-background-gradient_23-2148273606.avif') no-repeat center/cover;
     
 }
 #stars{
@@ -251,8 +251,6 @@ a{
 }
 #ul1{
 display: block;
-width: 100%;
-background-color: red; 
 height: 1px;
 }
 #ul1 li{
